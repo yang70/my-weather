@@ -1,0 +1,80 @@
+/* Header sizes */
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+/* Background classes */
+.clear {
+  background: url('https://s3.amazonaws.com/mystufftoshare/clear.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  width: 100%;  
+}
+
+.snow {
+  background: url('https://s3.amazonaws.com/mystufftoshare/snow.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  width: 100%;  
+}
+
+.rain {
+  background: url('https://s3.amazonaws.com/mystufftoshare/rain.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+.tstorms {
+  background: url('https://s3.amazonaws.com/mystufftoshare/tstorms.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+.cloudy {
+  background: url('https://s3.amazonaws.com/mystufftoshare/cloudy.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+.fog {
+  background: url('https://s3.amazonaws.com/mystufftoshare/fog.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+.footer {
+  bottom: 0;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+}
+
+/* Initialize to hide celsius temp */
+#temp-c {
+  display: none;
+}
+
+/* Change text color of temp on hover */
+#temp-div:hover {
+  color: #0b6491;
+}
