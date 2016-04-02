@@ -33,7 +33,7 @@ $(document).ready(function(){
       case "hazy":
       case "partlycloudy":
       case "mostlycloudy":
-        return "coudy";
+        return "cloudy";
         break;
       case "fog":
         return "fog";
